@@ -1,16 +1,15 @@
-## 1. Setup
+Please check the [report](report.pdf) for details of this work.
 
-####  Requirements
+## Requirements
 
-------------
-
-- python3.6
+- python3
 - gym
-- OpenCV 
+- gym-super-mario-bros
+- OpenCV
 - PyTorch
 - tensorboardX
 
-## 2. How to Train
+## Train
 
 Train network with a separate controller(Original model but with LSTM as the forward network):
 
@@ -24,7 +23,7 @@ Train network with controller with shared features with ICM:
 python3 train.py --shared_features
 ```
 
-## 3. How to Evaluate
+## Evaluate
 
 Evaluate network with a separate controller (Original model but with LSTM as the forward network):
 ```
@@ -38,6 +37,8 @@ python3 eval.py --name eta-0.2_rnn_forward_both_shared_features_stack-1_only_int
 
 References
 ----------
+
+Code has been heavily borrowed from the first two. Thanks a lot!
 
 <https://github.com/ctallec/world-models>
 
