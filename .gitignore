@@ -2,7 +2,6 @@
 logs
 *.log
 __pycache__/
-models/
 runs/
 # Runtime data
 pids
