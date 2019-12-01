@@ -1,3 +1,13 @@
+## Our model:
+
+Trained without any extrinsic reward
+
+![Evaluation](images/evaluation.gif)
+
+## Architecture:
+
+![Architecture](images/architecture.png)
+
 Please check the [report](report.pdf) for details of this work.
 
 ## Requirements
@@ -17,7 +27,7 @@ Train network with a separate controller(Original model but with LSTM as the for
 python3 train.py
 ```
 
-Train network with controller with shared features with ICM:
+Train network with controller with shared features with ICM (Our model):
 
 ```
 python3 train.py --shared_features
