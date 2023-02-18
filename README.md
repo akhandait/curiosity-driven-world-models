@@ -2,13 +2,13 @@
 
 Trained without any extrinsic reward
 
-![Evaluation](images/evaluation.gif)
+![Evaluation](https://i.imgur.com/AJrZBIq.gif)
 
 ## Architecture:
 
-![Architecture](images/architecture.png)
+![Architecture](https://i.imgur.com/K5GUQs8.png)
 
-Please check the [report](report.pdf) for details of this work.
+Please check the [report](https://drive.google.com/file/d/19tvDESmAZK8G8XrFuQilsY962Km1-jZZ/view?usp=sharing) for details of this work.
 
 ## Requirements
 
